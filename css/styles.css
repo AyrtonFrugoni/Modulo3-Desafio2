@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@400;700&display=swap');
+:root{
+    --color-white:#FFFFFF;
+    --color-black: #000000;
+    --color-red:  #F03C42;
+    --bg-color-blue: #222374;
+    --color-gray: #CCCCCC;
+}
+*{
+    font-family: 'open-sans', sans-serif;
+}
+
+header{
+    background-color:var(--color-red);
+}
