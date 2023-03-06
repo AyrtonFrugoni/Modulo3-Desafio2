@@ -1,15 +1,321 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@400;700&display=swap');
-:root{
-    --color-white:#FFFFFF;
+
+:root {
+    --color-white: #FFFFFF;
     --color-black: #000000;
-    --color-red:  #F03C42;
+    --color-red: #F03C42;
     --bg-color-blue: #222374;
     --color-gray: #CCCCCC;
 }
-*{
+
+* {
     font-family: 'open-sans', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-header{
-    background-color:var(--color-red);
+a,
+a:hover {
+    color: unset;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    background-color: var(--color-red);
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+nav h1 {
+    color: var(--color-white);
+    font-size: 18px;
+    margin-top: 38px;
+}
+
+footer {
+   
+    height: 262px;
+    background-color: var(--color-black);
+    color: var(--color-white);
+}
+
+footer {}
+
+
+.right-side {
+    display: flex;
+    justify-content: center;
+    color: var(--color-white);
+}
+
+.right-side img {
+    margin: 35px 5px 35px;
+    size: 30px;
+}
+
+.right-side-a {
+    margin: 41px 0 40px 5px;
+    font-size: 14px;
+}
+
+
+.h2-container {
+    font-size: 32px;
+    padding-top: 20px;
+    margin-bottom: 40px;
+    color: var(--color-white);
+}
+
+.Knowing {
+    background-color: var(--bg-color-blue);
+    height: 418px;
+
+}
+
+.knowing-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.knowing-content {
+    background-color: var(--color-gray);
+    border-radius: 8px;
+    height: 127px;
+    margin-bottom: 20px;
+}
+
+.knowing-content h3 {
+    margin-left: 20px;
+}
+
+.knowing-content p {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.knowing-content-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.knowing-content-2 {
+    background-color: var(--color-gray);
+    border-radius: 8px;
+    height: 127px;
+    margin-bottom: 20px;
+}
+
+.knowing-content-2 h3 {
+    margin-left: 20px;
+}
+
+.knowing-content-2 p {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+
+
+
+#modalities h2 {
+    color: var(--color-red);
+    margin: 20px 40px;
+    font-size: 32px;
+    margin-top: 20px;
+}
+
+.jiu-jitsu-content {
+    background-color: var(--bg-color-blue);
+    color: var(--color-white);
+    height: 106px;
+    border-radius: 8px;
+}
+
+.jiu-jitsu-content h3 {
+    margin-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+.jiu-jitsu-content p {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.zumba-content {
+    background-color: var(--bg-color-blue);
+    color: var(--color-white);
+    height: 106px;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.zumba-content h3 {
+    margin-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+.zumba-content p {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.karate-content {
+    background-color: var(--bg-color-blue);
+    color: var(--color-white);
+    height: 106px;
+    border-radius: 8px;
+}
+
+.karate-content h3 {
+    margin-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+.karate-content p {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.funcional-content {
+    background-color: var(--bg-color-blue);
+    color: var(--color-white);
+    height: 106px;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.funcional-content h3 {
+    margin-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+.funcional-content p {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+
+.pilates-content {
+    background-color: var(--bg-color-blue);
+    color: var(--color-white);
+    height: 106px;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.pilates-content h3 {
+    margin-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+.pilates-content p {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.musc-content {
+    background-color: var(--bg-color-blue);
+    color: var(--color-white);
+    height: 106px;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+
+}
+
+.musc-content h3 {
+    margin-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+.musc-content p {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.rodape-1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 14px;
+    
+}
+
+.img-1 {
+
+    width: 30px;
+    height: 30px;
+    margin-bottom: 5px;
+    margin-top: 60px;
+}
+
+.img-2 {
+    margin-top: 5px;
+    width: 30px;
+    height: 30px;
+}
+
+#a-1 {
+    font-size: 14px;
+    margin-top: 66px;
+    margin-left: 10px;
+}
+#a-2 {
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 10px;}
+
+.rodape-2 {
+    
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 14px;
+}
+
+.rodape-3 {
+    padding-bottom: 81px;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
 }
